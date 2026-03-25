@@ -1,0 +1,39 @@
+# =====================
+# GENERAL
+# =====================
+.DS_Store
+.env
+*.log
+
+# =====================
+# BACKEND (Spring Boot)
+# =====================
+backend/target/
+backend/*.log
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# IntelliJ / Eclipse
+backend/.idea/
+backend/*.iml
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# =====================
+# FRONTEND (React / Vite)
+# =====================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Vite
+frontend/.vite/
+
+# =====================
+# OS / EDITOR
+# =====================
+.vscode/
+.idea/
+*.swp
